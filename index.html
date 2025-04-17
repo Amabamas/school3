@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Школа</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+      border-bottom: 2px solid #ccc;
+    }
+    .logo {
+      width: 80px;
+      height: auto;
+    }
+    .school-address {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .contacts {
+      text-align: right;
+    }
+    .contacts p {
+      margin: 0;
+    }
+    .messengers {
+      margin-top: 5px;
+    }
+    .messengers img {
+      width: 24px;
+      height: 24px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .left-side {
+      width: 45%;
+    }
+    .left-side h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .left-side p {
+      margin: 5px 0;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .buttons button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .right-side {
+      width: 50%;
+      text-align: center;
+    }
+    .right-side img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    nav {
+      border-top: 2px solid #ccc;
+      padding: 10px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    .footer-section {
+      text-align: center;
+    }
+    .footer-section img {
+      width: 60px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .footer-section p {
+      margin: 4px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Логотип" class="logo" />
+    <div class="school-address">г. Пример, ул. Школьная, 10</div>
+    <div class="contacts">
+      <p>+7 (999) 123-45-67</p>
+      <div class="messengers">
+        <a href="https://t.me/your_channel" target="_blank"><img src="telegram.png" alt="Telegram" /></a>
+        <a href="https://wa.me/79991234567" target="_blank"><img src="whatsapp.png" alt="WhatsApp" /></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="left-side">
+      <h1>Наша школа</h1>
+      <p>— Современное образование</p>
+      <p>— Индивидуальный подход</p>
+      <p>— Профессиональные педагоги</p>
+      <p>— Творческое развитие</p>
+      <p>— Безопасная среда</p>
+      <p>— Комфортная атмосфера</p>
+      <p>Дополнительные занятия</p>
+      <p>Развитие навыков</p>
+      <p>Поддержка родителей</p>
+      <div class="buttons">
+        <button>Подробнее о нас</button>
+        <button>Записаться</button>
+      </div>
+    </div>
+    <div class="right-side">
+      <img src="school_image.jpg" alt="Школа" />
+      <p>Описание под изображением (добавите сами)</p>
+    </div>
+  </main>
+
+  <nav>
+    <a href="#">О школе</a>
+    <a href="#">Расписание</a>
+    <a href="#">Преподаватели</a>
+    <a href="#">Курсы</a>
+    <a href="#">Контакты</a>
+  </nav>
+
+  <footer>
+    <div class="footer-section">
+      <img src="logo1.png" alt="Логотип 1" />
+      <p>Партнёр 1</p>
+      <p>Краткое описание</p>
+      <p>ещё строка</p>
+    </div>
+    <div class="footer-section">
+      <img src="logo2.png" alt="Логотип 2" />
+      <p>Партнёр 2</p>
+      <p>Краткое описание</p>
+      <p>ещё строка</p>
+    </div>
+    <div class="footer-section">
+      <img src="logo3.png" alt="Логотип 3" />
+      <p>Партнёр 3</p>
+      <p>Краткое описание</p>
+      <p>ещё строка</p>
+    </div>
+  </footer>
+</body>
+</html>
